@@ -112,7 +112,7 @@ var app = new Vue({
     '</transition-group>' +
     '<template v-if="!postitList.length">' +
       '<span class="postit-message">Postit Notes App</span>' +
-        '<span class="postit-submessage">Written in vueJS sourch available <a href="https://github.com/3h4/3h4.github.io/consulting/postit-app.js">here</a></span>' +
+        '<span class="postit-submessage">Written in vueJS sourch available <a href="https://github.com/3h4/3h4.github.io/blob/master/consulting/postit-app.js">here</a></span>' +
     '</template>' +
   '</div>'
 })
