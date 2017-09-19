@@ -1,0 +1,115 @@
+
+.sample {
+  width: 100%;
+  background: #403f3f;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: Arial, 'Sans-serif';
+  position: relative;
+  overflow: hidden;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+
+.postit-message, .postit-submessage {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.postit-message {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.postit-submessage {
+  font-size: 17px;
+  color: white;
+}
+
+#remove-button{
+  right: 80px;
+  line-height: 55px;
+}
+
+.add-remove-button {
+  text-align: center;
+  line-height: 60px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 20px;
+  font-size: 40px;
+  border-radius: 50%;
+  border:2px solid white;
+  width: 60px;
+  height: 60px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-remove-button:hover {
+  background: white;
+  color: #403f3f;
+}
+
+.remove-active {
+  background: #d03131 !important;
+}
+
+.postit-note{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  padding: 15px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.postit-note:focus{
+  outline: none;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+  z-index: 100;
+}
+
+.remove-postit-button {
+  color: white;
+  font-weight: bold;
+  background: red;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  right: -13px;
+  top: -13px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 11;
+
+}
+
+.remove-postit-button:hover {
+  background: white;
+  color: red;
+
+}
+
+

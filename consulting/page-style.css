@@ -1,0 +1,142 @@
+
+a, h1, h2, h3, h4, a:visited, a:focus, a:active {
+    margin: 0;
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+}
+
+a, a:visited, a:focus, a:active {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  background: red;
+  background: linear-gradient(45deg, #392c71, #3613d2);
+  flex-direction: column;
+  text-align: center;
+}
+
+.background-title {
+  font: 50px Arial;
+  padding: 10px;
+}
+
+.background-subtitle {
+  font: 15px Arial;
+  padding: 10px;
+}
+
+.lang-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: 15px Arial;
+  padding: 20px;
+}
+
+.lang-button {
+  padding: 18px;
+}
+
+.container {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  background: white;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.portrait {
+  width: 200px;
+  height: 200px;
+  padding: 0 35px;
+  border-radius: 50%;
+  float: left;
+}
+
+h1 {
+  margin: 0px 0 28px 0;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.text > span {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin: 0 0 28px 0;
+}
+
+.info {
+  padding: 170px 100px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.delay-1 {
+  animation-delay: .25s;
+}
+.delay-2 {
+  animation-delay: .5s;
+}
+.delay-3 {
+  animation-delay: .75s;
+}
+.delay-4 {
+  animation-delay: 1s;
+}
+
+.delay-5 {
+  animation-delay: 1.25s;
+}
+
+#page {
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: 660px) { 
+  
+  .info {
+    padding: 100px 50px;
+  }
+  
+  .portrait {
+    padding: 0;
+    float: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 410px) { 
+  .info {
+     padding: 50px 20px;
+  }
+  .portrait {
+    margin-bottom: 40px;
+  }
+}
+
