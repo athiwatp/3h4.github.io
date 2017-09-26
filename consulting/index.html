@@ -12,13 +12,19 @@
 <div class="background">
 <span class="background-title animated fadeInUp">Erik Hallström</span>
 	<span class="background-subtitle animated fadeInUp delay-2">
-		<span class="lang-swe">Mjukvaruutvecklare</span>
+		<span class="lang-swe">Mjukvaruutvecklare</span>	
+		<span class="lang-eng">Software developer</span>
+		<span class="lang-zh">软件工程师</span>
 	</span>
+	<div class="lang-button-container">
+		<span class="lang-button" id="choose-eng">Eng</span>
+		<span class="lang-button active-button" id="choose-swe">Swe</span>
+		<span class="lang-button" id="choose-zh">中文</span>
+	</div>
 </div>
 
 <div class="container">
 <div class="info">
-
 <img src="me.jpg" class="portrait hidden" data-visible-animation="animated zoomIn">
 
 <div class="text">
@@ -30,7 +36,7 @@
 		<br>
 		<br>
 		<span class="hidden" data-visible-animation="animated fadeInUp">
-		Speciellt startups ligger mig varmt om hjärtat, jag tror att Webben fortfarande inte har nått sin fulla potential. Moderna webbteknologier som HTML5, CSS3 och Ecmascript 6, snabb utveckling av morderna Javascript-ramverk samt hård konkurrens mellad browsertillverkare gör att prestandan och funktionaliteten ständigt ökar. 
+		Speciellt startups ligger mig varmt om hjärtat, jag tror att Webben fortfarande inte har nått sin fulla potential. Moderna webbteknologier som HTML5, CSS3 och Ecmascript 6, snabb utveckling av morderna Javascript-ramverk samt hård konkurrens mellad browsertillverkare gör att prestandan och funktionaliteten ständigt ökar.
 		</span>
 		<br>
 		<br>
@@ -39,6 +45,51 @@
 		<a href="https://www.linkedin.com/in/hallstroem/">LinkedIn</a>.
 		</span>
 	</span>
+
+	<span class="lang-eng">
+		<h1 class="hidden" data-visible-animation="animated fadeIn">About me</h1>
+		<span class="hidden" data-visible-animation="animated fadeIn">
+		Hi, and welcome to my web page. My name is Erik Hallstrom, and I'm an independent software developer. I have previously been working in various areas, frontend, backend and with AI. I have a BS.c. in Engineering Physics and a M.Sc. in Machine Learning, Swedish: "Civilingenjör teknisk fysik", from the Royal Institute of Technology, (KTH) in Stockholm. Apart from engineering I've also studied Mandarin Chinese in Taiwan for two years.
+		</span>
+		<br>
+		<br>
+		<span class="hidden" data-visible-animation="animated fadeInUp">
+		I'm particulaly excited about Internet startups, I believe that the Web has not yet reached its full potential. Modern web technologies such as HTML5, CSS3 and Ecmascript 6, rapid developement of modern Javascript frameworks as well as fierce competition betweed browser vendors causes the functionality and preformance to increase. 
+		</span>
+		<br>
+		<br>
+		<span class="hidden" data-visible-animation="animated fadeInUp">
+		I'm currently very interested in working with the technologies VueJS, NodeJS and MongoDB. I believe that the most important thing with new frameworks is that they are incrementally adoptable and live i the same ecosystem (NPM) as other frameworks/libraries. Lock-in should be avioded when possible.
+		</span>
+		<br>
+		<br>
+		<span class="hidden" data-visible-animation="animated fadeInUp">
+		Don't hesitate to contact me on <a href="https://www.linkedin.com/in/hallstroem/">LinkedIn</a>.
+		</span>
+	</span>
+
+	<span class="lang-zh">
+		<h1 class="hidden" data-visible-animation="animated fadeIn">关于我</h1>
+		<span class="hidden" data-visible-animation="animated fadeIn">
+		你好，欢迎来到我的网站。 我的名字叫 Erik Hallstrom, 我是一个独立的软件开发工程师。以前在不同的公司开发前段，后段以及人工智慧的代码。我有一个物理学士和一个机器学习硕士的学位。 我也在台湾两年学习中文。
+		</span>
+		<br>
+		<br>
+		<span class="hidden" data-visible-animation="animated fadeInUp">
+		我特别对网络技术有兴趣。我觉得我们还没有达到网络充分的潜力。先进的科技如HTML5， CSS3，和 Ecmascript 6，Javascript框架的快熟发展以及浏览器厂商的激烈竞争使得功能和性能不断的发展。
+		</span>
+		<br>
+		<br>
+		<span class="hidden" data-visible-animation="animated fadeInUp">
+		我最爱的科技就是VueJS，  NodeJS 和 MongoDB。 
+		</span>
+		<br>
+		<br>
+		<span class="hidden" data-visible-animation="animated fadeInUp">
+		你们可以联系到我在 <a href="https://www.linkedin.com/in/hallstroem/">LinkedIn</a>.
+		</span>
+	</span>
+
 </div>
 
 </div>
@@ -46,6 +97,7 @@
 </div>
 
 <script src="scroll-reveal.js"></script>
+<script src="languages.js"></script>
 <script src="vue.min.js"></script>
 <script src="postit-app.js"></script>
 

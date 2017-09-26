@@ -15,6 +15,29 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.lang-button {
+  padding: 18px;
+  cursor: pointer;
+}
+
+.active-button {
+  color: white;
+  text-shadow: 0px 0px 3px #ffffff;
+  font-weight: bold;
+}
+
+.lang-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: 15px Arial;
+  padding: 20px;
+}
+
+.lang-eng, .lang-zh {
+  display: none;
+}
+
 .background {
   display: flex;
   justify-content: center;

@@ -111,8 +111,8 @@ var app = new Vue({
       '<postit-note v-for="(post, index) in postitList" @removeNote="removeNote(index)" :key="post" :delete-mode="deleteMode" :color="post.color" :mouse-position="mousePosition">{{post.msg}}</postit-note>' +
     '</transition-group>' +
     '<template v-if="!postitList.length">' +
-      '<span class="postit-message">Postit Notes App</span>' +
-        '<span class="postit-submessage">Written in vueJS sourch available <a href="https://github.com/3h4/3h4.github.io/blob/master/consulting/postit-app.js">here</a></span>' +
+      '<span class="postit-message">Code example</span>' +
+        '<span class="postit-submessage">Written in vueJS, source available <a href="https://github.com/3h4/3h4.github.io/blob/master/consulting/postit-app.js">here</a> <br> (May not function correctly on a touch device)</span>' +
     '</template>' +
   '</div>'
 })
